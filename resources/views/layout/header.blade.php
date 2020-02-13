@@ -12,67 +12,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-    }
-
-    .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    .topnav a.active {
-        background-color: #4CAF50;
-        color: white;
-    }
-
-    .topnav-right {
-        float: right;
-    }
-
-    img {
-        height: 100%;
-        width: 100wh;
-    }
-
-    .tab-content {
-        margin-top: 28px;
-    }
-
-    .form-group {
-        margin-left: 0;
-        margin-right: 10px;
-    }
-
-    .form-control {
-        padding: .375rem .75rem;
-    }
-
-    .login-header-message {
-        margin-top: 20px;
-    }
-
-    i {
-        font-size: 36px;
-        color: #007bff;
-        margin: 20px
-    }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
@@ -101,7 +42,7 @@
             @yield('register')
         </div>
     </div>
-    </div>
+    
 </body>
 
 </html>
