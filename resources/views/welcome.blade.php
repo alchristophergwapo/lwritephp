@@ -6,7 +6,7 @@
         <div class="user_card">
             <div class="d-flex justify-content-center">
                 <div class="brand_logo_container">
-                    <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png"
+                    <img src="https://www.brandcrowd.com/gallery/brands/pictures/picture15482692036942.jpg"
                         class="brand_logo" alt="Logo">
                 </div>
             </div>
@@ -45,7 +45,7 @@
         <div class="user_card">
             <div class="d-flex justify-content-center">
                 <div class="brand_logo_container">
-                    <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png"
+                    <img src="https://www.brandcrowd.com/gallery/brands/pictures/picture15482692036942.jpg"
                         class="brand_logo" alt="Logo">
                 </div>
             </div>
