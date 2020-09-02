@@ -11,7 +11,8 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center form_container">
-                <form>
+                <form action="{{ route('home') }}">
+                @csrf
                     <div class="form-group mb-8">
                         <h3 class="login-message">Login Account</h3>
                     </div>
@@ -30,7 +31,7 @@
                             placeholder="Enter your password">
                     </div>
                     <div class="d-flex justify-content-center mt-3 login_container">
-                        <button type="button" name="button" class="btn login_btn">Login</button>
+                        <button type="submit" name="button" class="btn login_btn">Login</button>
                     </div>
                 </form>
             </div>

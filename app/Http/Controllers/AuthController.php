@@ -17,11 +17,12 @@ class AuthController extends Controller
             'password'=>'required'
         ]);
 
-        $credentials = $request->only('username', 'password');
-        if (Auth::attempt($credentials)) {
-            return redirect()->intended('dashboard');
-        }
-        return Redirect::to("login")->withError('error','Oooops! You have entered invalid credentials');
+        return view('dashboard.header.dashboard_header');
+        // $credentials = $request->only('username', 'password');
+        // if (Auth::attempt($credentials)) {
+        //     return view('dashboard.header.dashboard_header');
+        // }
+        // return Redirect::to("login")->withError('error','Oooops! You have entered invalid credentials');
     }
 
     public function Registration(Request $request)

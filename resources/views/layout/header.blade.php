@@ -18,7 +18,7 @@
 
 <body>
     <div class="topnav navbar-expand-sm navbar-light bg-dark fixed-top">
-        <a class="navbar-brand bg-success" href="#home">LWrite</a>
+        <a class="navbar-brand bg-success" href="#auth">LWrite</a>
         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navigation"
             aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
